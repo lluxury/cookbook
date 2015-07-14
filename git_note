@@ -1,0 +1,14 @@
+   16  touch manifests/nodes.pp
+   17  history 2 >> ~/git_note
+   19  vi manifests/nodes.pp
+   20  history 2 >> ~/git_note
+   21  sudo puppet apply manifests/site.pp
+   22  history 2 >> ~/git_note
+   24  1.3 ok
+   25  history 2 >> ~/git_note
+   27  sudo apt-get install git
+   28  history 2 >> ~/git_note
+   32  mv puppet puppet.import
+   33  history 2 >> ~/git_note
+   14  mv puppet.import/* puppet/
+   15  history 2 >> ~/git_note
