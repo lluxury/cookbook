@@ -12,3 +12,13 @@
    33  history 2 >> ~/git_note
    14  mv puppet.import/* puppet/
    15  history 2 >> ~/git_note
+   22  git add manifests/ git_note
+   23  history 2 >> /home/ubuntu/puppet/git_note
+   28  git commit -m "github"
+   29  history 2 >> /home/ubuntu/puppet/git_note
+   30  git push -u origin master
+   31  history 2 >> /home/ubuntu/puppet/git_note
+   32  1.4 ok
+   33  history 2 >> /home/ubuntu/puppet/git_note
+   34  puppet apply manifests/site.pp
+   35  history 2 >> /home/ubuntu/puppet/git_note
